@@ -24,7 +24,7 @@ var multipartMiddleware = multipart();
 var path = require('path');
 
 var async = require("async");
-app.set('port',process.env.PORT || 3000);
+app.set('port',process.env.PORT || 443);
 //监听端口
 server.listen(app.get('port'),function(req,res){
     console.log('Express server listening on port '+ app.get('port'));
